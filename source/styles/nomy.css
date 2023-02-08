@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(90deg, #0008A0 0%, #000000 100%);
+}
+.player>b {
+    color:aquamarine;
+}
+.mp3 {
+    color:aquamarine;
+}

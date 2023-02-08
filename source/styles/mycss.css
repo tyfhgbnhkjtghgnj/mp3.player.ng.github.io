@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM Plex Mono:wght@300&display=swap');
+
+
+body {
+    font-family: IBM Plex Mono;
+    background: linear-gradient(360deg, #000AD2 0%, #000000 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(138, 139, 139);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(129, 129, 129);
+}
+
+.fronted {
+    color: aquamarine;
+}
+
+.card {
+    animation: myAnim 1s ease 0s 1 normal forwards;
+    filter: drop-shadow(5px 5px 10px #000);
+    
+    
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+body{
+    background: #fff url(https://celes.club/uploads/posts/2022-05/1652730127_13-celes-club-p-mikroskhema-art-krasivo-13.jpg) center center/cover no-repeat;
+    backdrop-filter:  blur(5px);
+    height: 100vh;
+    
+}
+::marker {
+    color:aquamarine;
+}
+.sidebar{
+    border-style: ridge;
+    text-shadow: 5px 2px 4px #3cd5e9;
+    font-size: larger;
+    background: #fff url(https://srv4.imgonline.com.ua/result_img/imgonline-com-ua-Blur-3iPu8RA5FMcR.jpg) center center/cover no-repeat;
+    backdrop-filter:  blur(5px);
+    border-width: 0.5px;
+    
+}
+.col-lg-3 {
+    backdrop-filter:  blur(5px);
+}
+
+.sidebar>b {
+    color:#000;
+}
+a {
+    text-decoration: none;
+    text-shadow: none;
+}
+.player {
+    display:flex;
+    justify-content: center;
+}
+.player>b {
+    font-size: 3em;
+    text-shadow: 5px 2px 4px #000000;
+}
+ul>::marker{
+    color:aquamarine;
+}
+.mp3>ul>li{
+    text-shadow: 5px 1px 4px #000000;
+    font-size: 2em;
+}
